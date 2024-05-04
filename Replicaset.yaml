@@ -8,7 +8,7 @@ spec:
     matchExpressions:
       - key: "app"
         operator: "In"
-        values: ["cbz-app", "my-app"]
+        values: ["xyz-app", "cbz-app"]
   template: 
     metadata: 
       labels:
