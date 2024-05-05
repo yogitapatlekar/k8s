@@ -8,7 +8,7 @@ spec:
     matchLabels:
       app: student-app
   strategy: 
-    type: Rolling 
+    type: RollingUpdate 
   template: 
     metadata: 
       labels:
