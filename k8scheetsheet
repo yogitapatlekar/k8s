@@ -31,3 +31,6 @@ kubectl expose pod my-first-pod --port=80 --target-port=80
 kubectl expose pod my-first-pod --port=80 --type=clusterIP  
 
 kubectl delete pod my-pod 
+kubectl get deploy 
+kubectl get pods 
+kubectl get rs 
