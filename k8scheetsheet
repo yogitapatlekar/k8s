@@ -34,3 +34,5 @@ kubectl delete pod my-pod
 kubectl get deploy 
 kubectl get pods 
 kubectl get rs 
+kubectl edit rs my-rs 
+kubectl scale rs --replicas=0 my-rs 
