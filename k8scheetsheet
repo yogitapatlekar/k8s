@@ -1,0 +1,33 @@
+aws eks update-kubeconfig --region us-east-1 --name my-cluster 
+  
+kubectl cluster-info 
+
+kubectl get nodes 
+
+kubectl get nodes -o wide 
+
+kubectl run my-first-pod --image=nginx
+
+kubectl get pods 
+
+kubectl get -o wide pods  
+
+kubectl describe pod my-first-pod 
+
+kubectl run my-pod --port=80 --image=nginx 
+
+kubectl logs my-pod 
+
+kubectl logs -c <container_name> <pod_name>
+
+kubectl explain pods  
+-------------------------------------------------
+kubectl expose pod my-first-pod --port=80 --type=clusterIP 
+
+kubectl get service 
+
+kubectl expose pod my-first-pod --port=80 --target-port=80 
+
+kubectl expose pod my-first-pod --port=80 --type=clusterIP  
+
+kubectl delete pod my-pod 
