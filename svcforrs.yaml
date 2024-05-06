@@ -4,7 +4,7 @@ metadata:
   name: my-svc
 spec: 
   selector: 
-    app: cbz-app 
+    app: my-svc 
   ports: 
   - name: http 
     targetPort: 80 
