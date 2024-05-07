@@ -30,11 +30,24 @@ kubectl expose pod my-first-pod --port=80 --target-port=80
 
 kubectl expose pod my-first-pod --port=80 --type=clusterIP  
 
+kubectl apply -f pod.yaml 
+
+kubectl exec -it my-pod -c my-pod-container /bin/bash 
+
+kubectl api-resources
+ 
 kubectl delete pod my-pod 
+
 kubectl get deploy 
+
 kubectl get pods 
+
 kubectl get rs 
+
 kubectl edit rs my-rs 
+
 kubectl scale rs --replicas=0 my-rs 
+
 kubectl edit deploy my-deployment 
-kubectl api-resources 
+
+kubectl api-resources  
