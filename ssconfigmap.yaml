@@ -4,10 +4,10 @@ metadata:
   name: my-ss 
 spec: 
   replicas: 3
+  serviceName: mariadb
   selector: 
     matchLabels: 
       app: mariadb 
-  serviceName: mariadb
   template: 
     metadata: 
       labels:
@@ -23,12 +23,12 @@ spec:
         env: 
         - name: MYSQL_ROOT_PASSWORD
           valueFrom: 
-          configMapKeyRef: 
-           name: my-vars 
-           key: DB_PASSWORD 
+            configMapKeyRef: 
+              name: my-vars 
+              key: DB_PASSWORD 
         - name: MYSQL_USER_NAME 
-          configMapKeyRef: 
-           name: my-vars 
-           key: DB_USER_NAME 
-
+          valueFrom: 
+            configMapKeyRef: 
+              name: my-vars 
+              key: DB_USER
 
