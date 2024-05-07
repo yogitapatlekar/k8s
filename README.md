@@ -23,3 +23,5 @@ deployment: deployment is responsible for implementing deployment tratagies on r
 statefulset: responsible for managing the replicas of the stateful pod.
 
 Daemonset: responsile for managing the replicas of the pods on every node 
+
+ConfigMap: to store variables 
