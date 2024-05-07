@@ -26,9 +26,9 @@ kubectl expose pod my-first-pod --port=80 --type=clusterIP
 
 kubectl get service 
 
-kubectl expose pod my-first-pod --port=80 --target-port=80 
+kubectl expose pod my-first-pod --port=80 --target-port=80 --type=NodePor 
 
-kubectl expose pod my-first-pod --port=80 --type=clusterIP  
+kubectl expose pod my-pod --name my-pod-lb --type=LoadBalancer --port=80 --target-port=80 
 
 kubectl apply -f pod.yaml 
 
@@ -52,4 +52,4 @@ kubectl edit deploy my-deployment
 
 kubectl api-resources  
 
-kubectl expose pod my-pod --name my-pod-lb --type=LoadBalancer --port=80 --target-port=80 
+kubectl scale statefulset my-ss --replicas 2
