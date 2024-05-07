@@ -63,4 +63,12 @@ kubectl edit deploy my-deployment
 
 kubectl api-resources  
 
-kubectl scale statefulset my-ss --replicas 2
+kubectl scale statefulset my-ss --replicas 2 
+
+--------------------------------------------------------------------
+
+kubectl get configmap 
+
+kubectl describe configmap my-vars 
+
+
