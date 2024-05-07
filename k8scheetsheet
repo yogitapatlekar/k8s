@@ -51,3 +51,5 @@ kubectl scale rs --replicas=0 my-rs
 kubectl edit deploy my-deployment 
 
 kubectl api-resources  
+
+kubectl expose pod my-pod --name my-pod-lb --type=LoadBalancer --port=80 --target-port=80 
