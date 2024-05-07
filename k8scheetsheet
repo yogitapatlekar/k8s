@@ -71,4 +71,8 @@ kubectl get configmap
 
 kubectl describe configmap my-vars 
 
+kubectl exec -it my-ss-0 -- bash 
+
+env 
+
 
