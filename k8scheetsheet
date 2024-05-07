@@ -78,3 +78,9 @@ env
 ------------------------------------------------- 
 
 echo -n "Redhat" | base64 
+
+kubectl get secret 
+
+kubectl describe secret my-sec 
+
+
