@@ -75,4 +75,6 @@ kubectl exec -it my-ss-0 -- bash
 
 env 
 
+------------------------------------------------- 
 
+echo -n "Redhat" | base64 
