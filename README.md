@@ -26,6 +26,6 @@ Daemonset: responsile for managing the replicas of the pods on every node
 
 ConfigMap: to store variables 
 
-secret: to store confiantial variables 
+secret: to store confidantial variables 
 
 

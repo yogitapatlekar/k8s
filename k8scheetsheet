@@ -79,6 +79,8 @@ kubectl scale statefulset my-ss --replicas 2
 
 kubectl get configmap 
 
+kubectl get cm 
+
 kubectl describe configmap my-vars 
 
 kubectl exec -it my-ss-0 -- bash 
