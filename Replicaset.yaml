@@ -20,4 +20,5 @@ spec:
         ports:
           - name: http
             protocol: TCP
-            containerPort: 80
+            containerPort: 80 
+            
