@@ -39,6 +39,16 @@ kubectl api-resources
 kubectl delete pod my-pod 
 
 ---------------------------------------------------------
+
+kubectl get rc 
+
+kubectl get pods 
+
+kubectl get -o wide pods 
+
+kubectl delete rc 
+
+
 kubectl get namespaces 
 
 kubectl get ns
