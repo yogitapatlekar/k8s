@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend-app
-        image: piyu5233/frontendapp:latest
+        image: piyu5233/b33pro:mytag
         ports:
         - name: http
           containerPort: 80
