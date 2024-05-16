@@ -19,5 +19,5 @@ spec:
         image: piyu5233/b33pro:mytag
         ports:
         - name: tomcat
-          containerPort: 8080
+          containerPort: 80
           protocol: TCP 
