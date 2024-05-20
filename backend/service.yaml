@@ -7,6 +7,6 @@ spec:
     app: backend-app 
   ports: 
   - name: http 
-    targetPort: 80 
-    port: 80 
-  type: ClusterIp 
+    targetPort: 3306 
+    port: 3306
+  type: ClusterIP
