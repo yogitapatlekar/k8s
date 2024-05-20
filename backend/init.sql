@@ -10,4 +10,5 @@ CREATE TABLE IF NOT EXISTS students (
 	    student_percent VARCHAR(10) NOT NULL,
 	    student_year_passed VARCHAR(10) NOT NULL,
 	    PRIMARY KEY (student_id)
-	);
+	); 
+	
