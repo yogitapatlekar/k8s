@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-app 
-        image: piyu5233/backendapp:latest
+        image: aakashshinde09/project:database
         ports:
         - name: java
           containerPort: 8080
