@@ -19,5 +19,5 @@ spec:
         image: piyu5233/project:database
         ports:
         - name: java
-          containerPort: 8080
+          containerPort: 3306
           protocol: TCP 
