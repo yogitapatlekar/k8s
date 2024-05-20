@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS studentapp;
+REATE DATABASE IF NOT EXISTS studentapp;
 USE studentapp;
 
 CREATE TABLE IF NOT EXISTS students (
