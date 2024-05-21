@@ -1,3 +1,4 @@
+
 CREATE DATABASE IF NOT EXISTS studentapp;
 USE studentapp;
 
@@ -11,4 +12,3 @@ CREATE TABLE IF NOT EXISTS students (
 	    student_year_passed VARCHAR(10) NOT NULL,
 	    PRIMARY KEY (student_id)
 	); 
-	
