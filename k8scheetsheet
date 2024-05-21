@@ -96,5 +96,6 @@ echo -n "Redhat" | base64
 kubectl get secret 
 
 kubectl describe secret my-sec 
-
+-----------------------------------------------------------
+mysql -h <endpoint of db> -u admin -pAdmin123 
 
