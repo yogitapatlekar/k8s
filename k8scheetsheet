@@ -47,8 +47,7 @@ kubectl get pods
 kubectl get -o wide pods 
 
 kubectl delete rc 
-
-
+------------------------------------------------------------------------
 kubectl get namespaces 
 
 kubectl get ns
