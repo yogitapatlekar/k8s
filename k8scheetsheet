@@ -39,7 +39,6 @@ kubectl api-resources
 kubectl delete pod my-pod 
 
 ---------------------------------------------------------
-
 kubectl get rc 
 
 kubectl get pods 
@@ -65,9 +64,7 @@ kubectl get pods -n dev
 kubectl run my-pod --image=nginx -n dev 
 
 kubectl apply -f <manifest-file.yaml> -n <namespace-name>
-
 -------------------------------------------------------------------------
-
 kubectl get deploy 
 
 kubectl get pods 
@@ -83,9 +80,7 @@ kubectl edit deploy my-deployment
 kubectl api-resources  
 
 kubectl scale statefulset my-ss --replicas 2 
-
 --------------------------------------------------------------------
-
 kubectl get configmap 
 
 kubectl get cm 
@@ -95,9 +90,7 @@ kubectl describe configmap my-vars
 kubectl exec -it my-ss-0 -- bash 
 
 env 
-
 ------------------------------------------------- 
-
 echo -n "Redhat" | base64 
 
 kubectl get secret 
